@@ -30,6 +30,7 @@ Pytest is used as the testing framework that executes the generated tests and va
 
 The repository is organized with a simple and clear structure.
 
+```
 ai-unit-test-agent
 │
 ├── agent.py
@@ -39,6 +40,7 @@ ai-unit-test-agent
 ├── .env.example
 ├── .gitignore
 └── README.md
+```
 
 The file `agent.py` contains the AI agent responsible for interacting with Azure OpenAI and generating the test code.
 
@@ -71,9 +73,11 @@ Install the required dependencies.
 Create a `.env` file based on `.env.example`.
 
 Example configuration:
+```
 AZURE_OPENAI_API_KEY=your_api_key_here
 AZURE_OPENAI_ENDPOINT=https://your-resource.services.ai.azure.com/
 AZURE_OPENAI_DEPLOYMENT=gpt-4o
+```
 
 These variables allow the project to authenticate with Azure OpenAI.
 
